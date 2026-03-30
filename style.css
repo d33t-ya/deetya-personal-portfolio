@@ -1,0 +1,118 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', 'times new roman', sans-serif;
+    color: #222;
+    background: #f9f9f9;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+}
+
+header.hero {
+    background: linear-gradient(120deg, #c39ced 0%, #f48fa8 100%);
+    color: #33010e;
+    padding: 100px 20px 80px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    margin-bottom: 0.5rem;
+}
+
+.tagline {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.cta {
+    display: inline-block;
+    padding: 0.75rem 2rem;
+    background: #fff;
+    color: #f48fa8;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.2s, color 0.2s;
+}
+.ctaLinks {
+    display: inline-block;
+    padding: 0.75rem 2rem;
+    background: #f48fa8;
+    color: #fff;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.2s, color 0.2s;
+}
+
+.cta:hover {
+    background: #f48fa8;
+    color: #fff;
+}
+.ctaLinks:hover {
+    background: #fff;
+    color: #f48fa8;
+}
+section {
+    padding: 60px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #f48fa8;
+}
+
+.project-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.project {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    padding: 1.5rem;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.project:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 6px 24px rgba(243, 169, 204, 0.12);
+}
+
+.contact {
+    text-align: center;
+}
+
+.email-link {
+    display: inline-block;
+    margin-top: 1rem;
+    color: #f48fa8;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.email-link:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 30px 10px;
+    background: #222;
+    color: #fff;
+    font-size: 1rem;
+    margin-top: 40px;
+    letter-spacing: 1px;
+}
